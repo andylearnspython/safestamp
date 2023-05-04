@@ -1,0 +1,98 @@
+.application {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.applicationIcon {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  color: #20A2FA;
+}
+
+.applicationTitle {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.client {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.clientName {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+}
+
+.mainHeading {
+  text-align: center;
+  width: 100%;
+}
+
+.clientGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .application {
+    flex-direction: column;
+    max-width: 100px;
+  }
+
+  .applicationLeft {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .applicationCenter {
+    align-items: center;
+    text-align: center;
+  }
+
+  .applicationRight {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .applicationIcon {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .uShapedContainer {
+    width: 100%;
+  }
+
+  .heroImage {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .uShapedContainer {
+    margin-top: 50px;
+  }
+
+  .clientGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

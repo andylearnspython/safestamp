@@ -1,0 +1,32 @@
+.uarc {
+  display: flex;
+}
+
+.arcItem {
+  transform-origin: 50% 50%;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  .uarc {
+    height: 300px;
+    position: relative;
+  }
+
+  .arcItem {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .uarc {
+    flex-direction: column;
+  }
+
+  .arcItem {
+    transform: none !important;
+  }
+}

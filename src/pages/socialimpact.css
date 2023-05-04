@@ -1,0 +1,40 @@
+.square {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 1% 0;
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    /*margin: 1% 0;*/
+    /*!*text-align: center;*!*/
+    /*!*justify-content: center;*!*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+
+}
+
+.text {
+    margin: auto;
+    display: flex;
+}
+

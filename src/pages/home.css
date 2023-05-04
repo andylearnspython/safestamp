@@ -1,0 +1,59 @@
+/* u {
+    text-decoration-color: #20A2FA;
+    text-underline-offset: 0.1em;
+    text-decoration-thickness: 0.1em;
+  }
+  
+  .award-list {
+    list-style: none;
+  }
+  
+  .award-list li {
+    margin-bottom: 1em;
+  }
+  
+  .award-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .competitor-table {
+    border: none;
+    border-spacing: 0;
+  }
+  
+  .competitor-table tr {
+    margin: 0;
+  }
+  
+  .competitor-table td {
+    padding: 0.5em;
+    width: 100px;
+  }
+  
+  .competitor-table th:first-child {
+    text-align: right;
+    font-weight: normal;
+    padding: 0.5em 1em 0.5em 0;
+  }
+  
+  .competitor-table th:nth-child(2) {
+    background-color: #20A2FA33;
+    color: #20A2FA;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .competitor-table td:nth-child(2) {
+    background-color: #20A2FA33;
+    color: #20A2FA;
+  }
+  
+  .competitor-table tbody tr:last-child td:nth-child(2) {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  } */
+
+
+.small {
+    font-size: 16px;
+}
