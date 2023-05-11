@@ -25,7 +25,7 @@ const AboutUs = () => {
         </p>
         <p></p>
         <p>
-            SafeStamp Inc. is a <b>veteran-owned</b> firm with a mission to eliminate counterfeit pharmaceuticals by providing an <b>innovative, end-user friendly, and irreplicable</b> deep tech indicator for the product packaging. The indicator, which changes colors and reveals patterns when touched, allows users to easily distinguish legitimate products from counterfeits. It resists replication by counterfeiters through the employment of advanced nanomaterials; thus, it can serve as proof of authenticity for its use. 
+            SafeStamp Inc. is a <b>veteran-owned</b> firm with a mission to eliminate counterfeiting by providing an <b>innovative, end-user friendly, and irreplicable</b> deep tech indicator for the product packaging. The indicator, which changes colors and reveals patterns when touched, allows users to easily distinguish legitimate products from counterfeits. It resists replication by counterfeiters through the employment of advanced nanomaterials; thus, it can serve as proof of authenticity for its use. 
         </p>
         <p> 
             We work with our clients to customize our patented, advanced nanomaterial to their anticounterfeiting and branding needs. We can manufacture tailor-made designs that stand out against competitors, engage end-consumers, and can be placed on all forms of packaging. 
